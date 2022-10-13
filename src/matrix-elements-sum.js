@@ -25,7 +25,7 @@ function getMatrixElementsSum(matrix) {
         break
       }
       sum += matrix[j][i]
-    }
+    }  
   }
   return sum
 }
