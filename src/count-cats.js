@@ -17,7 +17,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  function countCats(arr){
   
   let result = arr.flat().toString().match(/(?<!\s)\^\^/g)
-  if(result == null){
+  if(result === null){
     return 0
   }
   return result.length
